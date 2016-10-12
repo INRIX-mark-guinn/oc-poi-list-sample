@@ -1,0 +1,22 @@
+{
+  "id":          "sdk.user.listpoiexample",
+  "name":        "List POI Example",
+  "view":        "appView.js",
+  "permissions": [],
+  "screens":     [
+    {
+      "id":       "screen1",
+      "chambers": [
+        {
+          "id":      "chamber1",
+          "js":      "MyPoiListChamber.js",
+          "autorun": true,
+          "focus":   true
+        }
+      ]
+    }
+  ],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-10-11",
+  "version":     "1.0.0"
+}
